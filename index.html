@@ -2,234 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!--Font Awesome CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
     <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-    <!--AOS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <!--Custom StyleSheet-->
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Eskimo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+    <!--StyleSheet-->
+    <link rel="stylesheet"  href="style.css">
+    <title> Eskimo </title>
 </head>
 <body>
-    <!--Header-->
-    <header class="header" id="home">
-        <!--Navigation-->
-        <nav class="nav">
-            <div class="navigation container"> 
-               <div class="logo">
-                   <h1>Eskimo<span>.</span></h1>
-               </div>  
-               <div class="menu">
-                   <div class="top-nav">
-                    <div class="logo">
-                        <h1>Eskimo<span>.</span></h1>
-                    </div> 
-                    <div class="close">
-                        <i class="fas fa-times"></i>
-                    </div>
-                   </div>
-                   <ul class="nav-list">
-                       <li class="nav-item">
-                           <a href="#home" class="nav-link">Home</a>
-                       </li>
-                       <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#PICK YOUR COOKIES" class="nav-link">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                   </ul>
-               </div>
-               <div class="hamburger"></div>
-            </div>
-        </nav>
-        <!--Hero-->
-        <div class="hero">
-            <div class="content">
-                <h1>Choose Best For You</h1>
-                <a href="#PICK YOUR COOKIES">&nbsp Shop Now &#8594;</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="app.js"></script>
+    <div class="header">
+       <div class="container">
+            <div class="navbar">    
+        </div>  
+            <nav>
+                <ul>
+                    <li id="title"><a href="">ESKIMO</a></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="">ABOUT ME</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                        <h1> Choose</h1> 
+                        <h2>best for you </h2>
+                        <br><br><br><br>
+                    <a href=""class="btn">Shop Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="myimg/t6.jpg" alt="" >
+                </div>
+                </div>
             </div>
         </div>
-    </header>
-    <!--Main-->
+    </div>
     <section class="section" id="about">
-        <div class="container about">
-            <div class="left"></div>
-            <div class="title">
-                <h1>About Us</h1>
+        <div class="container abaut">
+            <div class="left">
+                <div class="title">
+                 <h3> About Use</h3>
+                </div>
+                <p>Eskimo offers the most delicious և sweet cookies,<br> which are made exclusively from natural raw materials.<br>
+                I make it, Tamara Petrosyan. This is my little shop.<br> Small shop but a big dream.<br>
+                And I do all the deliveries for free.<br> If you order it, you will receive surprise gifts.<br> Well, Eskimo 
+                is waiting for you.</p>
             </div>
-            <p>
-                <b id="for">Eskimo</b> offers the most delicious and sweet cakes, 
-                which are made exclusively from natural raw materials.
-                I make all the cookies.This is my little shop.Small shop but big dream.
-                And all deliveries are free. If you place an order, you will receive a surprise gift.
-                Eskimo is waiting for you.<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Choose the best for you.</b>
-            </p>
             <div class="right">
-                <img src="./img/du.jpg" alt="" width="35%" height="120%" id="du">
+                <img src="./myimg/cook.jpg" alt=""/>
             </div>
         </div>
     </section>
-    <!--Menu-->
-     <section class="section" id="PICK YOUR COOKIES">
-         <div class="title">
-             <h1 id="two"><b>Pick Your Cookies</b></h1>
-         </div>
-         <div class="container menu-center">
-             <div class="menu-box">
-                 <img src="./img/1.jpg" alt="">
-                 <div class="buy">
-                     <a href="#" class="btn">&nbspBuy</a>
-                 </div>
-                 <p>Double Chocolate Cookies<br>$2.0</p>
-             </div>
-             <div class="menu-box">
-                <img src="./img/2.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy </a>
-                </div>
-                <p>Coconut Chunk Cookies<br>$2.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/3.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy </a>
-                </div>
-                <p> Vegan Chip Cookies<br>$1.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/4.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy </a>
-                </div>
-                <p>Doughnut Colored Pencils<br>$5.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/5n.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy</a>
-                </div>
-                <p>Chocolate  Doughnuts<br>$6.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/5656.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy</a>
-                </div>
-                <p>Baked Vanilla Donuts<br>$5.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/7.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy </a>
-                </div>
-                <p>Chocolate Chip Pancakes<br>$7.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/13.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy</a>
-                </div>
-                <p>Vegan Pancakes<br>$8.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/9.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy </a>
-                </div>
-                <p> Oatmeal Pancakes<br>$8.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/10n.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy </a>
-                </div>
-                <p>Pumpkin Spice  Macarons<br>$8.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/8.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy </a>
-                </div>
-                <p>French Macaron<br>$8.0</p>
-            </div>
-            <div class="menu-box">
-                <img src="./img/12.jpg" alt="">
-                <div class="buy">
-                    <a href="#" class="btn">&nbspBuy</a>
-                </div>
-                <p>Pink Chocolate Macaroons<br>$8.0</p>
-            </div>
-         </div>
-         <!--Contact Us-->
-         <section class="contact section" id="contact">
-             <div class="title">
-                 <h1 id="two"> Contact Us</h1>
-             </div>
-             <div class="contact-center container">
-                 <form class="form">
-                     <h2>Send Message</h2>
-                     <input type="text" placeholder="Name" class="name">
-                     <input type="email" placeholder="Email" class="email">
-                     <textarea  cols="30" rows="10" placeholder="Message"></textarea>
-                     <a href="#">Send</a>
-                 </form>
-                 <div class="img-cover">
-                     <img src="./img/15.jpg" id="dr" alt="">
-                 </div>
-             </div>
-         </section>
-    <!--Footer-->
-    <footer>
-        <div class="main-content">
-           <div class="left box">
-               <h2>Eskimo</h2>
-               <div class="content">
-               <p>Cookies and Sweets Store</p>
-               <div class="social">
-                   <a href="https://www.facebook.com/tamara.petrosyan.5895/about_details" target="black"><span class="fab fa-facebook-f"></span></a>
-                   <a href="#"><span class="fab fa-twitter"></span></a>
-                   <a href="#"><span class="fab fa-instagram"></span></a>
-                   <a href="#"><span class="fab fa-youtube"></span></a>
-               </div>
-            </div>
-           </div> 
-      <div class="center box">
-          <h2>Adress</h2>
-           <div class="content">
-               <div class="place">
-                <span class="fas fa-map-marker-alt"></span>
-                <span class="text">Armenia, Ararat</span>
-               </div>
-               <div class="phone">
-                <span class="fas fa-phone-alt"></span>
-                <span class="text">+374-93931561</span>
-               </div>
-               <div class="email">
-                <span class="fas fa-envelope"></span>
-                <span class="text">eskimo15@gmail.com</span>
-               </div>
-           </div>
-          </div>
-          <div class="right box">
-          <h2>Openning Hours</h2>
-          <div class="content">
-            <p>Mon-Fri:7am-10pm<br> Saturday:8am-10pm<br> Sunday:8am-11pm</p>
-        </div>
-        </div>
-      </div>
-    </footer>
-   <!--AOS-->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"> </script>
-   <!--Cutom Script--> 
-   <script src="./code.js"></script>
 </body>
 </html>

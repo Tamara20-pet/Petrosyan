@@ -2,62 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!--Font Awesome CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
-    <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
-    <!--StyleSheet-->
-    <link rel="stylesheet"  href="style.css">
-    <title> Eskimo </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>The Calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="app.js"></script>
-    <div class="header">
-       <div class="container">
-            <div class="navbar">    
-        </div>  
-            <nav>
-                <ul>
-                    <li id="title"><a href="">ESKIMO</a></li>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">SHOP</a></li>
-                    <li><a href="">ABOUT ME</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="row">
-            <div class="col-2">
-                        <h1> Choose</h1> 
-                        <h2>best for you </h2>
-                        <br><br><br><br>
-                    <a href=""class="btn">Shop Now &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="myimg/t6.jpg" alt="" >
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="section" id="about">
-        <div class="container abaut">
-            <div class="left">
-                <div class="title">
-                 <h3> About Use</h3>
-                </div>
-                <p>Eskimo offers the most delicious և sweet cookies,<br> which are made exclusively from natural raw materials.<br>
-                I make it, Tamara Petrosyan. This is my little shop.<br> Small shop but a big dream.<br>
-                And I do all the deliveries for free.<br> If you order it, you will receive surprise gifts.<br> Well, Eskimo 
-                is waiting for you.</p>
-            </div>
-            <div class="right">
-                <img src="./myimg/cook.jpg" alt=""/>
-            </div>
+    <header>
+        <h1>
+            &nbspThe Unconventional Calculator
+        </h1>
+    </header>
+    
+    <section id="calculator">
+        <input type="number" id="input-number">
+        <div id="actions">
+            <button type="button" id="add">+</button>
+            <button type="button" id="subtract">-</button>
+            <button type="button" id="mul">*</button>
+            <button type="button" id="div">/</button>
         </div>
     </section>
+   <div id="res">
+    <section id="result">
+        <h2 id="current-calculation">0</h2>
+        <h2>Result: <span id="current-result">0</span></h2>
+    </section>
+   </div>
+   <script src="app.js"></script>
+   <script src="calc.js"></script>
+   <script src="sub.js"></script>
 </body>
 </html>
